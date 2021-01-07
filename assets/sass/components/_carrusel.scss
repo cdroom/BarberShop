@@ -1,0 +1,70 @@
+.carrusel {
+    border       : 1px solid rgba(0, 0, 0, .125);
+    padding-right: 15px;
+    padding-left : 15px;
+    margin-right : auto;
+    margin-left  : auto;
+    padding-top  : 1rem;
+    margin-top   : 5rem;
+
+    @media (max-width:768px) {
+        &_info {
+            text-align: center;
+            margin-top: 1rem;
+        }
+
+        &_descripcion {
+            display: none;
+        }
+
+    }
+
+    &_titulo {
+        color      : $color_eerie_black;
+        font-family: $font_family-playfair;
+        font-weight: $font-playfair-weight-italic;
+        font-size  : $fontSizes_x-large;
+        font-style : italic;
+    }
+
+    &_redes {
+        color      : $color_spanish_pink;
+        line-height: 0.5em;
+    }
+
+    &_descripcion {
+        line-height: 2em;
+    }
+
+    &_img {
+        border-radius: 50%;
+        width        : inherit;
+    }
+
+    &_paginacion {
+        background-color: #e6e7e7;
+        padding-bottom  : 10px;
+        padding-top     : 30px;
+        margin-top      : 5rem
+    }
+
+    &_paginacion_inicio {
+        margin-left              : 0 !important;
+        border-top-left-radius   : 1rem !important;
+        border-bottom-left-radius: 1rem !important;
+    }
+
+    &_paginacion_fin {
+        margin-left               : 0 !important;
+        border-top-right-radius   : 1rem !important;
+        border-bottom-right-radius: 1rem !important;
+    }
+
+    &_paginacion_active {
+        background-color: #6c6e70;
+    }
+
+    & a {
+        color: #000000;
+    }
+}

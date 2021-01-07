@@ -1,0 +1,24 @@
+.header {
+    /*Imagen de fondo */
+    background-image   : url('../images/post-image.jpg');
+    background-repeat  : no-repeat;
+    background-size    : cover;
+    background-position: left;
+    padding-bottom     : 572px;
+    margin-top         : 5rem;
+
+    &_titulo {
+        text-align   : center;
+        color        : #fff;
+        padding-left : 20%;
+        padding-right: 20%;
+        font-family  : $font_family-playfair;
+        font-weight  : $font-playfair-weight-italic;
+        font-style   : italic;
+        font-size    : $fontSizes_xx-large;
+        padding-top  : 8rem;
+        float        : inline-end;
+
+    }
+
+}
